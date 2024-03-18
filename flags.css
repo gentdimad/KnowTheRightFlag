@@ -1,0 +1,591 @@
+/*For text only*/
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  /*Specific text modifications*/
+  .correct {
+    background-color: #416d19 !important;
+    transition: all 0.5s;
+  }
+  
+  .wrong {
+    background-color: #7d0a0a !important;
+    opacity: 0.7;
+    transition: all 0.5s;
+  }
+  
+  #play_now {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 487.5px;
+    font-size: 40px;
+    color: #eeeeee;
+  }
+  
+  .play_text {
+    user-select: none;
+    position: absolute;
+    color: #eeeeee;
+    font-size: 13px;
+    margin-left: 465px;
+    margin-top: 200px;
+  }
+  
+  #play_text_2 {
+    user-select: none;
+    margin-top: 220px;
+    margin-left: 503px;
+  }
+  
+  /*For display blocks*/
+
+  .hide {
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: all 0.2s;
+  }
+  
+  #welcome_page {
+    transition: all 0.22s;
+  }
+  
+  #home_page {
+    transition: all 0.22s;
+  }
+  
+  #fact_page {
+    transition: all 0.22s;
+  }
+  
+  #country_page {
+    transition: all 0.22s;
+  }
+  
+  #gender_page {
+    transition: all 0.22s;
+  }
+  
+  #question_page {
+    transition: all 0.22s;
+  }
+  
+  #ending_page {
+    transition: all 0.22s;
+  }
+  
+  .active_profile {
+    transform: scale(1.15);
+  }
+  
+  .inactive {
+    opacity: 0.5;
+  }
+  
+  .flag_img {
+    object-fit: cover;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  
+  #main_container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #main_box {
+    position: absolute;
+    margin-bottom: -700px;
+    height: 500px;
+    width: 800px;
+    background-color: #76abae;
+    border-radius: 20px;
+  }
+  
+  #game_art {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  /*Templates*/
+  #templates {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 80px;
+    border-radius: 20px;
+    height: 300px;
+    width: 280px;
+    background-color: rgba(49, 54, 63, 0.7);
+    margin-right: 60px;
+  }
+  
+  #templates p {
+    margin-top: -20px;
+    font-size: 12px;
+    color: #eeeeee;
+  }
+  
+  #templates h3 {
+    font-size: 16px;
+    color: #eeeeee;
+  }
+  
+  #templates img {
+    margin-left: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
+  .start_template {
+    display: flex;
+    margin-top: 8px;
+    user-select: none;
+  }
+  
+  .start_template .text_desc {
+    margin-top: -15px;
+    margin-left: 15px;
+  }
+  
+  .start_template:hover {
+    transform: scale(1.15);
+  }
+  
+  #start_button button {
+    position: absolute;
+    margin-left: 495px;
+    margin-top: 400px;
+    border-style: none;
+    background-color: #222831;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    color: #eeeeee;
+    font-size: 20px;
+  }
+  
+  #next_button button {
+    position: absolute;
+    margin-left: 495px;
+    margin-top: 400px;
+    border-style: none;
+    background-color: #12372a;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    color: #eeeeee;
+    font-size: 20px;
+  } /*End of Welcome Page*/
+  
+  /*Home Page*/
+  
+  #home_decision_text {
+    text-align: center;
+    color: #eeeeee;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 140px;
+  }
+  
+  #home_text {
+    user-select: none;
+    font-size: 40px;
+  }
+  
+  #home_buttons button {
+    border-style: none;
+    margin: 10px;
+    margin-top: -50px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #222831;
+    color: #eeeeee;
+  }
+  
+  #home_back {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 400px;
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  /*End of Home Page*/
+  
+  /*Fact Page*/
+  #fact_box {
+    user-select: none;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 650px;
+    height: 350px;
+    background-color: #31363f;
+  }
+  
+  #fact_title {
+    color: #eeeeee;
+    font-size: 40px;
+    margin-left: 30px;
+  }
+  
+  #fact_list {
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 90%;
+    color: #eeeeee;
+  }
+  
+  #fact_buttons {
+    position: absolute;
+    margin-top: 420px;
+  }
+  
+  #fact_buttons button {
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 145px;
+    margin-right: 50px;
+  }
+  
+  /*Country Page*/
+  #country_title_text {
+    user-select: none;
+    position: absolute;
+    color: #eeeeee;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+  
+  #country_display {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+  }
+  
+  #flags {
+    width: 350px;
+  }
+  
+  #flags img {
+    margin: 4px;
+  }
+  
+  #continent_buttons {
+    width: 200px;
+    margin-left: 70px;
+    margin-top: 5px;
+  }
+  
+  .continent {
+    border-style: none;
+    margin: 2.5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #222831;
+    color: #eeeeee;
+  }
+  
+  #country_back {
+    border-style: none;
+    background-color: #eeeeee;
+    margin: 3px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #222831;
+  }
+  /*End of Country Page*/
+  
+  /*Gender Page*/
+  #gender_page_text {
+    user-select: none;
+    position: absolute;
+    color: #eeeeee;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+  
+  #gender_page_subtext {
+    user-select: none;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 100px;
+    width: 230px;
+    height: 300px;
+    color: #eeeeee;
+  }
+  
+  #gender_buttons {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 300px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  #gender_play {
+    border-style: none;
+    margin: 2.5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #222831;
+    color: #eeeeee;
+  }
+  
+  #gender_back {
+    border-style: none;
+    background-color: #eeeeee;
+    margin: 3px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #222831;
+  }
+  
+  #gender_flag_container {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 90px;
+    width: 350px;
+    height: 400px;
+  }
+  
+  .gender_flag {
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 8px;
+    width: 90px;
+    height: 60px;
+  }
+  
+  /*Question Page*/
+  #question_page_text {
+    user-select: none;
+    position: absolute;
+    color: #eeeeee;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+  
+  #question_flag {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  #question_flag_container {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 110px;
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #31363f;
+    transition: all 0.5s;
+  }
+  
+  #question_description {
+    user-select: none;
+    color: #eeeeee;
+    width: 370px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 16px;
+  }
+  
+  #question_choice_box {
+    position: absolute;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: 110px;
+    transition: all 0.5s;
+  }
+  
+  .question_choices {
+    border-style: none;
+    margin: 7px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #222831;
+    color: #eeeeee;
+  }
+  
+  #question_continue {
+    border-style: none;
+    background-color: #eeeeee;
+    margin-top: 40px;
+    margin-left: 7px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-size: 14px;
+    color: #222831;
+  }
+  /*End of Question Page*/
+  
+  /*Ending Page*/
+  #finished_text {
+    user-select: none;
+    position: absolute;
+    color: #eeeeee;
+    font-size: 40px;
+    margin-left: 130px;
+    margin-top: 130px;
+  }
+  
+  #finished_subtext {
+    user-select: none;
+    position: absolute;
+    color: #eeeeee;
+    font-size: 25px;
+    margin-left: 215px;
+    margin-top: 180px;
+  }
+  
+  #finished_buttons {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 215px;
+  }
+  
+  #finished_buttons button {
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  
