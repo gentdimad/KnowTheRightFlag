@@ -1,591 +1,598 @@
 /*For text only*/
 .poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
-  /*Specific text modifications*/
-  .correct {
-    background-color: #416d19 !important;
-    transition: all 0.5s;
-  }
-  
-  .wrong {
-    background-color: #7d0a0a !important;
-    opacity: 0.7;
-    transition: all 0.5s;
-  }
-  
-  #play_now {
-    position: absolute;
-    margin-top: 150px;
-    margin-left: 487.5px;
-    font-size: 40px;
-    color: #eeeeee;
-  }
-  
-  .play_text {
-    user-select: none;
-    position: absolute;
-    color: #eeeeee;
-    font-size: 13px;
-    margin-left: 465px;
-    margin-top: 200px;
-  }
-  
-  #play_text_2 {
-    user-select: none;
-    margin-top: 220px;
-    margin-left: 503px;
-  }
-  
-  /*For display blocks*/
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
-  .hide {
-    visibility: hidden;
-    overflow: hidden;
-    height: 0;
-    opacity: 0;
-    transition: all 0.2s;
-  }
-  
-  #welcome_page {
-    transition: all 0.22s;
-  }
-  
-  #home_page {
-    transition: all 0.22s;
-  }
-  
-  #fact_page {
-    transition: all 0.22s;
-  }
-  
-  #country_page {
-    transition: all 0.22s;
-  }
-  
-  #gender_page {
-    transition: all 0.22s;
-  }
-  
-  #question_page {
-    transition: all 0.22s;
-  }
-  
-  #ending_page {
-    transition: all 0.22s;
-  }
-  
-  .active_profile {
-    transform: scale(1.15);
-  }
-  
-  .inactive {
-    opacity: 0.5;
-  }
-  
-  .flag_img {
-    object-fit: cover;
-    width: 60px;
-    height: 40px;
-    border-radius: 10px;
-  }
-  
-  #main_container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  #main_box {
-    position: absolute;
-    margin-bottom: -700px;
-    height: 500px;
-    width: 800px;
-    background-color: #76abae;
-    border-radius: 20px;
-  }
-  
-  #game_art {
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 50px;
-  }
-  
-  /*Templates*/
-  #templates {
-    position: absolute;
-    margin-left: 450px;
-    margin-top: 80px;
-    border-radius: 20px;
-    height: 300px;
-    width: 280px;
-    background-color: rgba(49, 54, 63, 0.7);
-    margin-right: 60px;
-  }
-  
-  #templates p {
-    margin-top: -20px;
-    font-size: 12px;
-    color: #eeeeee;
-  }
-  
-  #templates h3 {
-    font-size: 16px;
-    color: #eeeeee;
-  }
-  
-  #templates img {
-    margin-left: 25px;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    object-fit: cover;
-  }
-  
-  .start_template {
-    display: flex;
-    margin-top: 8px;
-    user-select: none;
-  }
-  
-  .start_template .text_desc {
-    margin-top: -15px;
-    margin-left: 15px;
-  }
-  
-  .start_template:hover {
-    transform: scale(1.15);
-  }
-  
-  #start_button button {
-    position: absolute;
-    margin-left: 495px;
-    margin-top: 400px;
-    border-style: none;
-    background-color: #222831;
-    padding: 10px;
-    width: 200px;
-    border-radius: 20px;
-    color: #eeeeee;
-    font-size: 20px;
-  }
-  
-  #next_button button {
-    position: absolute;
-    margin-left: 495px;
-    margin-top: 400px;
-    border-style: none;
-    background-color: #12372a;
-    padding: 10px;
-    width: 200px;
-    border-radius: 20px;
-    color: #eeeeee;
-    font-size: 20px;
-  } /*End of Welcome Page*/
-  
-  /*Home Page*/
-  
-  #home_decision_text {
-    text-align: center;
-    color: #eeeeee;
-    position: absolute;
-    margin-left: 170px;
-    margin-top: 140px;
-  }
-  
-  #home_text {
-    user-select: none;
-    font-size: 40px;
-  }
-  
-  #home_buttons button {
-    border-style: none;
-    margin: 10px;
-    margin-top: -50px;
-    width: 200px;
-    height: 70px;
-    border-radius: 10px;
-    font-size: 25px;
-    background-color: #222831;
-    color: #eeeeee;
-  }
-  
-  #home_back {
-    position: absolute;
-    margin-left: 600px;
-    margin-top: 400px;
-    border-style: none;
-    width: 150px;
-    height: 50px;
-    border-radius: 20px;
-  }
-  /*End of Home Page*/
-  
-  /*Fact Page*/
-  #fact_box {
-    user-select: none;
-    position: absolute;
-    margin-left: 70px;
-    margin-top: 40px;
-    border-radius: 20px;
-    width: 650px;
-    height: 350px;
-    background-color: #31363f;
-  }
-  
-  #fact_title {
-    color: #eeeeee;
-    font-size: 40px;
-    margin-left: 30px;
-  }
-  
-  #fact_list {
-    margin-top: -20px;
-    margin-left: 30px;
-    width: 90%;
-    color: #eeeeee;
-  }
-  
-  #fact_buttons {
-    position: absolute;
-    margin-top: 420px;
-  }
-  
-  #fact_buttons button {
-    border-style: none;
-    width: 150px;
-    height: 50px;
-    border-radius: 20px;
-    margin-left: 145px;
-    margin-right: 50px;
-  }
-  
-  /*Country Page*/
-  #country_title_text {
-    user-select: none;
-    position: absolute;
-    color: #eeeeee;
-    font-size: 40px;
-    margin-left: 60px;
-    margin-top: 30px;
-  }
-  
-  #country_display {
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 100px;
-    display: flex;
-  }
-  
-  #flags {
-    width: 350px;
-  }
-  
-  #flags img {
-    margin: 4px;
-  }
-  
-  #continent_buttons {
-    width: 200px;
-    margin-left: 70px;
-    margin-top: 5px;
-  }
-  
-  .continent {
-    border-style: none;
-    margin: 2.5px;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 14px;
-    background-color: #222831;
-    color: #eeeeee;
-  }
-  
-  #country_back {
-    border-style: none;
-    background-color: #eeeeee;
-    margin: 3px;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 14px;
-    color: #222831;
-  }
-  /*End of Country Page*/
-  
-  /*Gender Page*/
-  #gender_page_text {
-    user-select: none;
-    position: absolute;
-    color: #eeeeee;
-    font-size: 40px;
-    margin-left: 60px;
-    margin-top: 30px;
-  }
-  
-  #gender_page_subtext {
-    user-select: none;
-    position: absolute;
-    margin-left: 65px;
-    margin-top: 100px;
-    width: 230px;
-    height: 300px;
-    color: #eeeeee;
-  }
-  
-  #gender_buttons {
-    position: absolute;
-    margin-left: 60px;
-    margin-top: 300px;
-    width: 200px;
-    height: 200px;
-  }
-  
-  #gender_play {
-    border-style: none;
-    margin: 2.5px;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 14px;
-    background-color: #222831;
-    color: #eeeeee;
-  }
-  
-  #gender_back {
-    border-style: none;
-    background-color: #eeeeee;
-    margin: 3px;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 14px;
-    color: #222831;
-  }
-  
-  #gender_flag_container {
-    position: absolute;
-    margin-left: 350px;
-    margin-top: 90px;
-    width: 350px;
-    height: 400px;
-  }
-  
-  .gender_flag {
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 8px;
-    width: 90px;
-    height: 60px;
-  }
-  
-  /*Question Page*/
-  #question_page_text {
-    user-select: none;
-    position: absolute;
-    color: #eeeeee;
-    font-size: 40px;
-    margin-left: 60px;
-    margin-top: 30px;
-  }
-  
-  #question_flag {
-    margin-left: 25px;
-    margin-top: 30px;
-    width: 400px;
-    height: 200px;
-    border-radius: 10px;
-  }
-  
-  #question_flag_container {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 110px;
-    width: 450px;
-    height: 350px;
-    border-radius: 20px;
-    background-color: #31363f;
-    transition: all 0.5s;
-  }
-  
-  #question_description {
-    user-select: none;
-    color: #eeeeee;
-    width: 370px;
-    margin-top: 10px;
-    margin-left: 40px;
-    font-size: 16px;
-  }
-  
-  #question_choice_box {
-    position: absolute;
-    width: 200px;
-    margin-left: 550px;
-    margin-top: 110px;
-    transition: all 0.5s;
-  }
-  
-  .question_choices {
-    border-style: none;
-    margin: 7px;
-    width: 180px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 14px;
-    background-color: #222831;
-    color: #eeeeee;
-  }
-  
-  #question_continue {
-    border-style: none;
-    background-color: #eeeeee;
-    margin-top: 40px;
-    margin-left: 7px;
-    width: 180px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 14px;
-    font-size: 14px;
-    color: #222831;
-  }
-  /*End of Question Page*/
-  
-  /*Ending Page*/
-  #finished_text {
-    user-select: none;
-    position: absolute;
-    color: #eeeeee;
-    font-size: 40px;
-    margin-left: 130px;
-    margin-top: 130px;
-  }
-  
-  #finished_subtext {
-    user-select: none;
-    position: absolute;
-    color: #eeeeee;
-    font-size: 25px;
-    margin-left: 215px;
-    margin-top: 180px;
-  }
-  
-  #finished_buttons {
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 215px;
-  }
-  
-  #finished_buttons button {
-    border-style: none;
-    width: 150px;
-    height: 50px;
-    font-size: 18px;
-    border-radius: 20px;
-    margin-left: 20px;
-  }
-  
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*Specific text modifications*/
+.correct {
+  background-color: #416d19 !important;
+  transition: all 0.5s;
+}
+
+.wrong {
+  background-color: #7d0a0a !important;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+#play_now {
+  position: absolute;
+  margin-top: 26vh;
+  margin-left: 88vh;
+  font-size: 7.2vh;
+  color: #eeeeee;
+}
+
+.play_text {
+  user-select: none;
+  position: absolute;
+  color: #eeeeee;
+  font-size: 2.3vh;
+  margin-left: 83.5vh;
+  margin-top: 36vh;
+}
+
+#play_text_2 {
+  user-select: none;
+  margin-top: 40vh;
+  margin-left: 91vh;
+}
+
+/*For display blocks*/
+
+.hide {
+  visibility: hidden;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+#welcome_page {
+  transition: all 0.22s;
+}
+
+#home_page {
+  transition: all 0.22s;
+}
+
+#fact_page {
+  transition: all 0.22s;
+}
+
+#country_page {
+  transition: all 0.22s;
+}
+
+#gender_page {
+  transition: all 0.22s;
+}
+
+#question_page {
+  transition: all 0.22s;
+}
+
+#ending_page {
+  transition: all 0.22s;
+}
+
+.active_profile {
+  transform: scale(1.15);
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+.flag_img {
+  object-fit: cover;
+  width: 11vh;
+  height: 7vh;
+  border-radius: 1.75vh;
+}
+
+#main_container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#main_box {
+  position: relative;
+  margin: auto;
+  height: 90vh;
+  width: 144vh;
+  background-color: #76abae;
+  border-radius: 3.5vh;
+}
+
+#game_art {
+  position: absolute;
+  margin-top: 13vh;
+  margin-left: 10vh;
+  height:60vh;
+  width:60vh;
+}
+
+/*Templates*/
+#templates {
+  position: absolute;
+  margin-left: 82vh;
+  margin-top: 13vh;
+  border-radius: 3.5vh;
+  height: 53vh;
+  width: 51vh;
+  background-color: rgba(49, 54, 63, 0.7);
+}
+
+#templates p {
+  margin-top: -3.5vh;
+  font-size: 2.3vh;
+  color: #eeeeee;
+}
+
+#templates h3 {
+  font-size: 2.9vh;
+  color: #eeeeee;
+}
+
+#templates img {
+  margin-left: 4vh;
+  width: 7vh;
+  height: 7vh;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.start_template {
+  display: flex;
+  margin-top: 1.4vh;
+  user-select: none;
+}
+
+.start_template .text_desc {
+  margin-top: -3vh;
+  margin-left: 2vh;
+}
+
+.start_template:hover {
+  transform: scale(1.15);
+}
+
+#start_button button {
+  position: absolute;
+  margin-left: 88vh;
+  margin-top: 72.5vh;
+  border-style: none;
+  background-color: #222831;
+  padding: 1.82vh;
+  width: 40vh;
+  border-radius: 3.5vh;
+  color: #eeeeee;
+  font-size: 3.5vh;
+}
+
+#next_button button {
+  position: absolute;
+  margin-left: 88vh;
+  margin-top: 72.5vh;
+  border-style: none;
+  background-color: #12372a;
+  padding: 1.82vh;
+  width: 40vh;
+  border-radius: 3.5vh;
+  color: #eeeeee;
+  font-size: 3.5vh;
+} /*End of Welcome Page*/
+
+/*Home Page*/
+
+#home_decision_text {
+  text-align: center;
+  color: #eeeeee;
+  position: absolute;
+  margin-left: 28vh;
+  margin-top: 24vh;
+}
+
+#home_text {
+  user-select: none;
+  font-size: 7.25vh;
+}
+
+#home_buttons button {
+  border-style: none;
+  margin: 2.5vh;
+  margin-top: -10.75vh;
+  width: 38vh;
+  height: 12.5vh;
+  border-radius: 1.75vh;
+  font-size: 4vh;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+#home_back {
+  position: absolute;
+  margin-left: 105vh;
+  margin-top: 72vh;
+  border-style: none;
+  width: 30vh;
+  height: 9vh;
+  border-radius: 3.5vh;
+  font-size:2.7vh;
+}
+/*End of Home Page*/
+
+/*Fact Page*/
+#fact_box {
+  user-select: none;
+  position: absolute;
+  margin-left: 13vh;
+  margin-top: 7vh;
+  border-radius: 3.5vh;
+  width: 118vh;
+  height: 65vh;
+  background-color: #31363f;
+}
+
+#fact_box p{
+  font-size:3vh;
+}
+
+#fact_title {
+  color: #eeeeee;
+  font-size: 7.2vh;
+  margin-left: 4.8vh;
+}
+
+#fact_list {
+  margin-top: -3.5vh;
+  margin-left: 4.8vh;
+  width: 90%;
+  color: #eeeeee;
+}
+
+#fact_buttons {
+  position: absolute;
+  margin-top: 76vh;
+}
+
+#fact_buttons button {
+  border-style: none;
+  width: 30vh;
+  height: 9vh;
+  border-radius: 20px;
+  margin-left: 25vh;
+  margin-right:9vh;
+  font-size:2.7vh;
+}
+
+/*Country Page*/
+#country_title_text {
+  user-select: none;
+  position: absolute;
+  color: #eeeeee;
+  font-size: 7.2vh;
+  margin-left: 10.5vh;
+  margin-top: 5.25vh;
+}
+
+#country_display {
+  position: absolute;
+  margin-top: 18vh;
+  margin-left: 18vh;
+  display: flex;
+}
+
+#flags {
+  width: 60vh;
+}
+
+#flags img {
+  margin: 0.8vh;
+}
+
+#continent_buttons {
+  width: 51vh;
+  margin-left: 17.5vh;
+  margin-top: 0.8vh;
+}
+
+.continent {
+  border-style: none;
+  margin: 0.4vh;
+  width: 30vh;
+  height: 7.2vh;
+  border-radius: 1.75vh;
+  font-size: 2.5vh;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+#country_back {
+  border-style: none;
+  background-color: #eeeeee;
+  margin: 0.4vh;
+  width: 30vh;
+  height: 7.5vh;
+  border-radius: 1.75vh;
+  font-size: 2.5vh;
+  color: #222831;
+}
+/*End of Country Page*/
+
+/*Gender Page*/
+#gender_page_text {
+  user-select: none;
+  position: absolute;
+  color: #eeeeee;
+  font-size: 7.2vh;
+  margin-left: 14.5vh;
+  margin-top: 5.25vh;
+}
+
+#gender_page_subtext {
+  user-select: none;
+  position: absolute;
+  margin-left: 15vh;
+  margin-top: 18vh;
+  width: 36vh;
+  height: 15vh;
+  color: #eeeeee;
+  font-size:3vh;
+}
+
+#gender_buttons {
+  position: absolute;
+  margin-left: 14.5vh;
+  margin-top: 57vh;
+  width: 35vh;
+  height: 35vh;
+}
+
+#gender_play {
+  border-style: none;
+  margin: 0.4vh;
+  width: 30vh;
+  height: 7.2vh;
+  border-radius: 1.75vh;
+  font-size: 2.7vh;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+#gender_back {
+  border-style: none;
+  background-color: #eeeeee;
+  margin: 2.5px;
+  width: 30vh;
+  height: 7vh;
+  border-radius: 1.75vh;
+  font-size: 2.7vh;
+  color: #222831;
+}
+
+#gender_flag_container {
+  position: absolute;
+  margin-left: 70vh;
+  margin-top: 16.5vh;
+  width: 60vh;
+  height: 50vh;
+}
+
+.gender_flag {
+  object-fit: cover;
+  border-radius: 1.75vh;
+  margin: 1.5vh;
+  width: 16vh;
+  height: 10.7vh;
+}
+
+/*Question Page*/
+#question_page_text {
+  user-select: none;
+  position: absolute;
+  color: #eeeeee;
+  font-size: 7.2vh;
+  margin-left: 10.5vh;
+  margin-top: 5.25vh;
+}
+
+#question_flag {
+  margin-left: 4.5vh;
+  margin-top: 4.8vh;
+  width: 73vh;
+  height: 36vh;
+  border-radius: 1.75vh;
+}
+
+#question_flag_container {
+  position: absolute;
+  margin-left: 10vh;
+  margin-top: 20vh;
+  width: 82vh;
+  height: 63.5vh;
+  border-radius: 3.5vh;
+  background-color: #31363f;
+  transition: all 0.5s;
+}
+
+#question_description {
+  user-select: none;
+  color: #eeeeee;
+  width: 65vh;
+  margin-top: 1.5vh;
+  margin-left: 7.5vh;
+  font-size: 2.8vh;
+}
+
+#question_choice_box {
+  position: absolute;
+  width: 33vh;
+  margin-left: 100vh;
+  margin-top: 20vh;
+  transition: all 0.5s;
+}
+
+.question_choices {
+  border-style: none;
+  margin: 1.4vh;
+  width: 32vh;
+  height: 9vh;
+  border-radius: 1.75vh;
+  font-size: 2.5vh;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+#question_continue {
+  border-style: none;
+  background-color: #eeeeee;
+  margin-top: 7vh;
+  margin-left: 1.6vh;
+  width: 32vh;
+  height: 9vh;
+  border-radius: 1.75vh;
+  font-size: 2.5vh;
+  color: #222831;
+}
+/*End of Question Page*/
+
+/*Ending Page*/
+#finished_text {
+  user-select: none;
+  position: absolute;
+  color: #eeeeee;
+  font-size: 7.2vh;
+  margin-left: 24vh;
+  margin-top: 24vh;
+}
+
+#finished_subtext {
+  user-select: none;
+  position: absolute;
+  color: #eeeeee;
+  font-size: 4.6vh;
+  margin-left: 38.5vh;
+  margin-top: 33vh;
+}
+
+#finished_buttons {
+  position: absolute;
+  margin-top: 44vh;
+  margin-left: 37.65vh;
+}
+
+#finished_buttons button {
+  border-style: none;
+  width: 26vh;
+  height: 9vh;
+  border-radius: 3vh;
+  font-size: 2.8vh;
+  margin-left: 5vh;
+}
