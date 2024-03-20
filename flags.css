@@ -433,14 +433,14 @@
   color: #eeeeee;
   font-size: 7.2vh;
   margin-left: 14.5vh;
-  margin-top: 5.25vh;
+  margin-top: 9.25vh;
 }
 
 #gender_page_subtext {
   user-select: none;
   position: absolute;
   margin-left: 15vh;
-  margin-top: 18vh;
+  margin-top: 22vh;
   width: 36vh;
   height: 15vh;
   color: #eeeeee;
@@ -450,7 +450,7 @@
 #gender_buttons {
   position: absolute;
   margin-left: 14.5vh;
-  margin-top: 57vh;
+  margin-top: 63vh;
   width: 35vh;
   height: 35vh;
 }
@@ -480,7 +480,7 @@
 #gender_flag_container {
   position: absolute;
   margin-left: 70vh;
-  margin-top: 16.5vh;
+  margin-top: 20.5vh;
   width: 60vh;
   height: 50vh;
 }
