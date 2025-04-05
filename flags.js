@@ -704,7 +704,7 @@ function nextQuestion() {
           "The circle, perfect and unbroken, represents the wholeness of these people."
         );
         $("#choice_1").html("Bigender");
-        $("#choice_2").html("Panexual");
+        $("#choice_2").html("Pansexual");
         $("#choice_3").html("Intersex");
         $("#choice_4").html("Heterosexual");
         $("#choice_3").addClass("answer");
@@ -794,7 +794,7 @@ function nextQuestion() {
           "This is for a person having or experiencing two different genders of any combination."
         );
         $("#choice_1").html("Bigender");
-        $("#choice_2").html("Panexual");
+        $("#choice_2").html("Pansexual");
         $("#choice_3").html("Intersex");
         $("#choice_4").html("Heterosexual");
         $("#choice_1").addClass("answer");
